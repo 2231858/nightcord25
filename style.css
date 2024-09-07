@@ -10,6 +10,20 @@ img {
 
 }
 
+.container {
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    /* bottom: 50%; */
+    left: 50%;
+    /* right: 50%; */
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    overflow-y: scroll;
+    max-height: 100%;
+    scrollbar-width:none;
+}
+
 .members {
     margin-top: 3em;
     border: 3px solid #8889CC;
@@ -18,9 +32,16 @@ img {
     margin-right: auto;
     background-color: blue;
     border-radius: 2em;
+    text-align: center;
+    max-height: 100%;
 }
 
 img.member-img {
     margin: 0.5em;
     border-radius: 2em;
+    transition: 1s;
+}
+
+img.member-img:hover {
+    scale: 1.2;
 }
