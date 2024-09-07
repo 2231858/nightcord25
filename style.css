@@ -34,7 +34,7 @@ body {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    background-color: blue;
+    /* background-color: blue; */
     border-radius: 2em;
     text-align: center;
     max-height: 100%;
@@ -47,7 +47,6 @@ img.member-img {
 }
 
 img.member-img:hover {
-    scale: 1.2;
-    filter: drop-shadow(30px 10px 4px #ffffff);
-
+    scale: 1.1;
+    filter: drop-shadow(0 0 0.4rem rgb(190, 20, 220)) drop-shadow(30px 10px 4px #fff);
 }
