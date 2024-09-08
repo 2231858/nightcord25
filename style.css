@@ -42,9 +42,9 @@ body {
     /* background-color: rgb(69, 27, 144); */
     /* background-color: rgb(130, 102, 30); */
     /* background-color: rgb(30, 117, 130); */
-    /* background-color: rgb(1, 84, 157); */
+    background-color: rgb(1, 84, 157);
     /* background-color: rgba(255, 0, 255, 0.237);  */
-    background-color: rgb(229, 140, 162);
+    /* background-color: rgb(229, 140, 162); */
     /* background-color: rgba(13, 34, 151, 0.719); */
 
 
@@ -79,12 +79,8 @@ img.member-img:hover {
     z-index: 0;
     scale: 1.1;
 
-
-
-    /* you can chose between the 2 styles of highlighting */
-
     /* softer white shadow and harsher pink glow */
-    /* filter: drop-shadow(0 0 0.4rem rgb(190, 20, 220)) drop-shadow(30px 10px 4px #fff); */
+    filter: drop-shadow(0 0 0.4rem rgb(190, 20, 220)) drop-shadow(30px 10px 4px #fff);
 
     /* softer pink glow, harsher white shadow */
     /* filter: drop-shadow(0 0 10px rgb(223, 42, 255)) drop-shadow(30px 10px 2px #fff); */
@@ -93,10 +89,9 @@ img.member-img:hover {
     /* filter: drop-shadow(0 0 10px rgb(255, 230, 42)) drop-shadow(30px 10px 2px #fff); */
 
     /* blue glow */
-    filter: drop-shadow(0 0 10px rgb(42, 248, 255)) drop-shadow(30px 10px 2px #fff);
+    /* filter: drop-shadow(0 0 10px rgb(42, 248, 255)) drop-shadow(30px 10px 2px #fff); */
 
 }
-
-.members:hover>* {
+/* .members:hover>* {
     filter: blur(1.5px) drop-shadow(2px 2px 5px);
-}
+} */
