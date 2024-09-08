@@ -80,7 +80,14 @@ img.member-img:hover {
     scale: 1.1;
 
     /* softer white shadow and harsher pink glow */
-    filter: drop-shadow(0 0 0.4rem rgb(190, 20, 220)) drop-shadow(30px 10px 4px #fff);
+    /* filter: drop-shadow(0 0 0.4rem rgb(190, 20, 220)) drop-shadow(30px 10px 4px #fff); */
+
+    /* harsh quadruple shadow */
+    filter: drop-shadow(15px 7px 0 rgb(190, 20, 220)) drop-shadow(15px 7px 0 rgb(20, 117, 220)) drop-shadow(15px 7px 0 rgb(20, 220, 70)) drop-shadow(15px 7px 0 #fff);
+
+/* harsh shadow */
+    /* filter: drop-shadow(0 0 5px rgb(190, 20, 220)) drop-shadow(30px 10px 0 #fff); */
+
 
     /* softer pink glow, harsher white shadow */
     /* filter: drop-shadow(0 0 10px rgb(223, 42, 255)) drop-shadow(30px 10px 2px #fff); */
@@ -92,6 +99,7 @@ img.member-img:hover {
     /* filter: drop-shadow(0 0 10px rgb(42, 248, 255)) drop-shadow(30px 10px 2px #fff); */
 
 }
+
 /* .members:hover>* {
     filter: blur(1.5px) drop-shadow(2px 2px 5px);
 } */
