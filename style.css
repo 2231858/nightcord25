@@ -14,39 +14,40 @@ body {
     background-color: burlywood;
 }
 
+/* alligns the character bar at the center */
 .container {
     vertical-align: middle;
     position: absolute;
     top: 50%;
-    /* bottom: 50%; */
-    left: 50%;
-    /* right: 50%; */
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    left: 0;
+    right: 0;
+    -ms-transform: translate(-0%, -50%);
+    transform: translate(-0%, -50%);
     overflow-y: visible;
     max-height: 100%;
     scrollbar-width: none;
 }
 
 .members {
-    margin-top: 3em;
     border: 3px solid #8889CC;
-    width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    /* background-color: blue; */
+    /* background-color: blue; */  
     border-radius: 2em;
     text-align: center;
-    max-height: 100%;
+    padding: .5em;
+    width: fit-content;
 }
 
 img.member-img {
-    margin: 0.5em;
+    margin: 2em;
     border-radius: 2em;
     transition: 0.7s;
+    z-index: 1;
 }
-
+/* when hovering over images */
 img.member-img:hover {
+    z-index: 0;
     scale: 1.1;
     filter: drop-shadow(0 0 0.4rem rgb(190, 20, 220)) drop-shadow(30px 10px 4px #fff);
 }
