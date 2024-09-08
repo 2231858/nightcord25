@@ -14,7 +14,7 @@ body {
     background-color: burlywood;
 }
 
-/* alligns the character bar at the center */
+/* alligns the mermbers bar at the center */
 .container {
     vertical-align: middle;
     position: absolute;
@@ -28,26 +28,59 @@ body {
     scrollbar-width: none;
 }
 
+/* code for the member's box */
 .members {
-    border: 3px solid #8889CC;
+    /* border: 3px solid #c30bbd; */
     margin-left: auto;
     margin-right: auto;
-    /* background-color: blue; */  
-    border-radius: 2em;
+
+
+    /* testing out some background colours... */
+
+    /* background-color: rgb(61, 105, 160); */
+    /* background-color: rgb(160, 61, 122); */
+    /* background-color: rgb(69, 27, 144); */
+    /* background-color: rgb(130, 102, 30); */
+    /* background-color: rgb(30, 117, 130); */
+    /* background-color: rgb(1, 84, 157); */
+    background-color: rgba(255, 0, 255, 0.237); 
+    /* background-color: rgba(13, 34, 151, 0.719); */
+
+
+
+    border-radius: 1em;
     text-align: center;
     padding: .5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
     width: fit-content;
+
+    /* vignette+ shadow effect on the member container */
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.7) inset, 2px 2px 15px;
+
+    /* enable to add glow around the member box */
+    /* filter: drop-shadow(0 0 0.4rem #df2aff); */
 }
 
+/* each member's image */
 img.member-img {
     margin: 2em;
     border-radius: 2em;
     transition: 0.7s;
     z-index: 1;
+    filter: drop-shadow(2px 2px 15px);
+    /* border: 3px solid #c30bbd; */
+
 }
+
 /* when hovering over images */
 img.member-img:hover {
     z-index: 0;
     scale: 1.1;
-    filter: drop-shadow(0 0 0.4rem rgb(190, 20, 220)) drop-shadow(30px 10px 4px #fff);
+
+    /* you can chose between the 2 styles of highlighting */
+    /* 1st one has a softer white shadow and harsher pink highlighting */
+    /* 2nd one has softer pink, harsher white shadow */
+    /* filter: drop-shadow(0 0 0.4rem rgb(190, 20, 220)) drop-shadow(30px 10px 4px #fff); */
+    filter: drop-shadow(0 0 10px rgb(223, 42, 255)) drop-shadow(30px 10px 2px #fff);
 }
