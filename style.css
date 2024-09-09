@@ -30,7 +30,7 @@ body {
 
 /* code for the member's box */
 .members {
-    /* border: 3px solid #c30bbd; */
+    border: 3px solid #c30bbd;
     margin-left: auto;
     margin-right: auto;
 
@@ -48,13 +48,14 @@ body {
     /* background-color: rgba(13, 34, 151, 0.719); */
 
 
-
+    vertical-align: middle;
     border-radius: 1em;
     text-align: center;
     padding: 1em;
     padding-left: 2em;
     padding-right: 2em;
     width: fit-content;
+    height: fit-content;
 
     /* vignette+ shadow effect on the member container */
     box-shadow: 0 0 200px rgba(0, 0, 0, 0.7) inset, 2px 2px 15px;
