@@ -26,11 +26,14 @@ body {
     overflow-y: visible;
     max-height: 100%;
     scrollbar-width: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
 }
 
 /* code for the member's box */
 .members {
-    border: 3px solid #c30bbd;
+    /* border: 3px solid #c30bbd; */
     margin-left: auto;
     margin-right: auto;
 
@@ -42,7 +45,8 @@ body {
     /* background-color: rgb(69, 27, 144); */
     /* background-color: rgb(130, 102, 30); */
     /* background-color: rgb(30, 117, 130); */
-    background-color: rgb(1, 84, 157);
+    /* background-color: rgb(46, 24, 87); */
+    /* background-color: rgb(1, 84, 157); */
     /* background-color: rgba(255, 0, 255, 0.237);  */
     /* background-color: rgb(229, 140, 162); */
     /* background-color: rgba(13, 34, 151, 0.719); */
@@ -64,6 +68,20 @@ body {
     /* filter: drop-shadow(0 0 0.4rem #df2aff); */
 }
 
+.nightcord25 {
+    /* background-color: rgb(46, 24, 87); */
+    /* background-color: #884499  ;
+    border: 3px solid #c30bbd; */
+    background-color: #000;
+
+}
+
+.leo-need {
+    background-color: #4455DD;
+    border: 3px solid #c30bbd;
+}
+
+
 /* each member's image */
 img.member-img {
     margin: 2em;
@@ -77,14 +95,14 @@ img.member-img {
 
 /* when hovering over images */
 img.member-img:hover {
-    z-index: 0;
+    /* z-index: 0; */
     scale: 1.1;
 
     /* softer white shadow and harsher pink glow */
     /* filter: drop-shadow(0 0 0.4rem rgb(190, 20, 220)) drop-shadow(30px 10px 4px #fff); */
 
     /* harsh quadruple shadow */
-    filter: drop-shadow(15px 7px 0 rgb(190, 20, 220)) drop-shadow(15px 7px 0 rgb(20, 117, 220)) drop-shadow(15px 7px 0 rgb(20, 220, 70)) drop-shadow(15px 7px 0 #fff);
+    /* filter: drop-shadow(15px 7px 0 rgb(190, 20, 220)) drop-shadow(15px 7px 0 rgb(20, 117, 220)) drop-shadow(15px 7px 0 rgb(20, 220, 70)) drop-shadow(15px 7px 0 #fff); */
 
     /* harsh shadow */
     /* filter: drop-shadow(0 0 0.4rem rgb(190, 20, 220)) drop-shadow(30px 10px 0 #fff) ; */
@@ -104,3 +122,35 @@ img.member-img:hover {
 /* .members:hover>* {
     filter: blur(1.5px) drop-shadow(2px 2px 5px);
 } */
+.saki:hover {
+    filter: drop-shadow(0 0 0.4rem #FFDD45) drop-shadow(10px 10px 10px #fff);
+}
+
+.ichika:hover {
+    filter: drop-shadow(0 0 0.4rem #33AAEE) drop-shadow(10px 10px 10px #fff);
+}
+
+.honami:hover {
+    filter: drop-shadow(0 0 0.4rem #EE6666) drop-shadow(10px 10px 10px #fff);
+}
+
+.shiho:hover {
+    filter: drop-shadow(0 0 0.4rem #BBDE22) drop-shadow(10px 10px 10px #fff);
+}
+
+
+.kanade:hover {
+    filter: drop-shadow(0 0 0.4rem#BB6588) drop-shadow(10px 10px 10px #fff);
+}
+
+.mafuyu:hover {
+    filter: drop-shadow(0 0 0.4rem#8889CC) drop-shadow(10px 10px 10px #fff);
+}
+
+.ena:hover {
+    filter: drop-shadow(0 0 0.4rem#CCAA87) drop-shadow(10px 10px 10px #fff);
+}
+
+.mizuki:hover {
+    filter: drop-shadow(0 0 0.4rem#E4A8CA) drop-shadow(10px 10px 10px #fff);
+}
