@@ -1,11 +1,20 @@
 img {
-    width: 283px;
-    height: 350px
+    width: 50%;
+    height: 50%;
 }
 
 #members {
     margin-left: auto;
     margin-right: auto;
-    background-color: blue;
+    background-color: #C3CAFF;
+}
 
+#nav{
+    background-color: aqua;
+}
+
+#square_card_img{
+    width: 80px;
+    height: 80px;
+    background-color: black;
 }
